@@ -2,6 +2,7 @@ import UIKit
 
 class School {
     var address: String
+    var phoneNumber: String?
     var studentObj: Student?
     init(address: String) {
         self.address = address
